@@ -1,2 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
 
-/* Your CSS Code here. */
+.container>div{
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.box-1{
+    background-color: red;
+    order: 2;
+}
+
+.box-2{
+    background-color: blue;
+    order: 3;
+}
+
+.box-3{
+    background-color: green;
+    order: 1;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.holder>div{
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 30px;
+}
